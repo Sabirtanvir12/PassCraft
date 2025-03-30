@@ -1,6 +1,5 @@
 # PassCraft 🔐
 
-![PassCraft Banner](https://via.placeholder.com/1000x300?text=PassCraft)  
 *A powerful and efficient password generator built for security and ease of use.*
 
 ---
@@ -32,10 +31,8 @@ PassCraft offers a wide range of functionalities to help users generate strong a
 Clone this repository and navigate to the directory:
 
 ```bash
-# Clone the repository
 git clone https://github.com/Sabirtanvir12/PassCraft.git
 
-# Change directory
 cd PassCraft
 ```
 
