@@ -40,6 +40,10 @@ Ensure you have Python installed, then run:
 ```bash
 pip install PyQt6
 ```
+## or
+```bash
+bash install.sh
+```
 
 ---
 
