@@ -6,11 +6,24 @@
 ---
 
 ## 🚀 Features
-✅ Generate strong and secure passwords instantly  
-✅ Supports customizable password length  
-✅ Includes options for uppercase, lowercase, numbers, and special characters  
-✅ Fast and lightweight  
-✅ Open-source and free to use  
+PassCraft offers a wide range of functionalities to help users generate strong and customizable passwords efficiently.
+
+### 🔑 **Core Features:**
+✅ **Instant Password Generation** – Quickly generate secure passwords with various options.  
+✅ **Customizable Length** – Set your desired password length (from short to very long).  
+✅ **Character Set Selection** – Choose from uppercase, lowercase, numbers, and special characters.  
+✅ **Avoid Ambiguous Characters** – Option to exclude characters like `O`, `0`, `I`, and `l` for better readability.  
+✅ **Password Strength Indicator** – Get real-time feedback on the security of the generated password.  
+✅ **Save Generated Passwords** – Option to save passwords to a text file for future use.  
+✅ **Copy to Clipboard** – Instantly copy passwords to the clipboard for quick access.  
+✅ **Offline & Lightweight** – Works completely offline and has minimal resource usage.  
+
+### 🔥 **Advanced Features:**
+🚀 **Bulk Password Generation** – Generate powerful passwords.  
+🔄 **Passphrase Generator** – Create secure yet easy-to-remember passphrases.  
+🔒 **Entropy Calculation** – Get an estimate of password strength in bits.  
+🎨 **User-Friendly Interface** – Clean and simple UI for easy navigation.  
+📜 **Command-Line Support** – Run PassCraft from the terminal with arguments.  
 
 ---
 
@@ -26,19 +39,34 @@ git clone https://github.com/Sabirtanvir12/PassCraft.git
 cd PassCraft
 ```
 
+Ensure you have Python installed, then run:
+```bash
+pip install PyQt6
+```
+
 ---
 
 ## 🛠 Usage
 
-Run the script to generate a password:
 
+### 🐧 Linux
+Make the script executable:
+```bash
+chmod +x gen.py
+```
+Then run it:
 ```bash
 python gen.py
 ```
 
-Follow the on-screen instructions to customize your password preferences.
-
----
+### 💻 Windows
+1. Download the ZIP file from GitHub and extract it.
+2. Open the extracted folder.
+3. Right-click inside the folder and select **Open in Terminal**.
+4. Run the script using:
+```powershell
+python gen.py
+```
 
 ## 🖥 Preview
 
@@ -50,11 +78,9 @@ Generated Password: p@S5w0rD!8Xy*
 ### 📸 Screenshots
 Below are some screenshots of PassCraft in action:
 
-![Screenshot 1](screenshot1.jpg)
+![Screenshot 1](screenshot1.png)
 
-![Screenshot 2](screenshot2.jpg)
-
-
+![Screenshot 2](screenshot2.png)
 
 ---
 
